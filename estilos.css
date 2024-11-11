@@ -19,7 +19,8 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     margin: 0 auto;
-    overflow: visible; /* Permite que o conteúdo dentro da barra seja exibido corretamente */
+    box-sizing: border-box;
+    overflow: hidden; /* Permite que o conteúdo dentro da barra seja exibido corretamente */
 }
 
 .like-progress-fill {
