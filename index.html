@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador PH</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="like-counter">
+        <div class="like-progress" id="like-progress">
+            <div class="like-progress-fill" id="like-progress-fill"></div>
+            <span class="like-info"><span id="like-count">0</span> / <span id="like-goal">100</span></span>
+        </div>
+    </div>
+
+    <div class="live-link-input">
+        <input type="text" id="live-link" placeholder="Coloque o link da live aqui">
+        <button onclick="submitLink()">Enviar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

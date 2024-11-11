@@ -1,0 +1,73 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white; /* Cor de fundo escura para destacar a barra de progresso */
+    color: white;
+}
+
+.like-counter {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin: 40px;
+}
+
+.like-progress {
+    position: relative;
+    height: 65px;
+    width: 350px; /* Aumenta a largura da barra de progresso */
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin: 0 auto;
+    overflow: visible; /* Permite que o conteúdo dentro da barra seja exibido corretamente */
+}
+
+.like-progress-fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 0;
+    background-color: #CA2018;
+    transition: width 0.5s ease-in-out;
+}
+
+.like-info {
+    position: absolute;
+    top: 70%; /* Ajusta a posição vertical dos likes */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6em;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.884);
+    text-shadow: 1px 1px 2px #000000, -1px -1px 2px #555555;
+    white-space: nowrap;
+    overflow: visible;
+}
+
+.live-link-input {
+    text-align: center;
+    margin: 20px;
+}
+
+.live-link-input input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #bb0b0b;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.live-link-input button {
+    padding: 10px 20px;
+    background-color: #CA2018;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.live-link-input button:hover {
+    background-color:#bb0b0b;
+}
